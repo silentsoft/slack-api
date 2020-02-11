@@ -1,0 +1,16 @@
+language: java
+
+git:
+  depth: false
+
+cache:
+  directories:
+    - "$HOME/.m2"
+
+script:
+  - mvn clean verify
+
+notifications:
+  slack:
+    rooms:
+      secure: "de8oOwtQZbhWu3GHl4mjMd4i/hGeRu6OCGNOA9/Nvq9Gr9iZ80HQ2CxL34DR4R3i7sN0uhj6kIUY+STGJ0+8pgvpuAkcfuAUNf18rr5RFpfR9ygbkX93bO5HwaexA0kchlp9GmsufRew8ZC6zg14q9HRBjjY4j2fQ/U4p0TDhiVo3pq5Gkd56Ao9H/x1d42drDvJPyDaedyeG071l+RLoOJIPOOmW8JsGmIuzOoQLf2gt+/MscFECqpxaB0I/w0G6mxZRdmg7lKwGxBo+I26/HhMRNmmB9mz3t9uptMuDSOmMF/i0Y0pmuNp7v0K5/Il72DjK5+06EnnVhZH7ErpURLa6zcPM0uphqRanDQCAhIHAEdPL3RJIYWlP4qnsu1MBBvPQEOk7Gbr7CeEjAZk6MkyhRh4eERy9NN/I2qtickftSqoHVuVRxvU6kM73fosWAwbJYM3ipiqiUTamFSgStRyZfUJNeUSDwgP65l7/8/r5tnjjE9NFEXJAQ1Cds7f0NzB3701oKEJgPVOPN5tCggFJpLZUt8LaQqfreDzWp0RKhVobkWFeNNlJl5z83Fa42+Qj7O3O+9ypzv9PeWDKcqpj+8TNhxofLHy7rn2KGLn7unt3kFemY9ItAoh/7hcoLe2n+1PgY14ryJezM5VrMg13OFNLIQrzrOmG12aD1s="
