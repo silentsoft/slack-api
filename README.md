@@ -1,7 +1,7 @@
 # Slack API
 
-![release](https://img.shields.io/badge/release-0.1.0-blue.svg)
-[![Build Status](https://travis-ci.org/silentsoft/slack-api.svg?branch=master)](https://travis-ci.org/silentsoft/slack-api)
+![release](https://img.shields.io/badge/release-0.1.1-blue.svg)
+[![Build Status](https://travis-ci.com/silentsoft/slack-api.svg?branch=master)](https://travis-ci.com/silentsoft/slack-api)
 [![license](https://img.shields.io/badge/license-Apache--2.0-green.svg)](https://github.com/silentsoft/slack-api/blob/master/LICENSE.txt)
 [![HitCount](http://hits.dwyl.io/silentsoft/slack-api.svg)](http://hits.dwyl.io/silentsoft/slack-api)
 
@@ -32,7 +32,7 @@
     <dependency>
         <groupId>org.silentsoft</groupId>
         <artifactId>slack-api</artifactId>
-        <version>0.1.0</version>
+        <version>0.1.1</version>
     </dependency>
 </dependencies>
 ``` 

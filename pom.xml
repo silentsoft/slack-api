@@ -6,7 +6,7 @@
 	
 	<groupId>org.silentsoft</groupId>
 	<artifactId>slack-api</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 
 	<name>Slack API</name>
 	<description>A simple Java library to post a Slack message to specific channel.</description>
