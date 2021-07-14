@@ -1,9 +1,9 @@
 # Slack API
 
-![release](https://img.shields.io/badge/release-0.1.1-blue.svg)
+![Maven Central](https://img.shields.io/maven-central/v/org.silentsoft/slack-api)
 [![Build Status](https://travis-ci.com/silentsoft/slack-api.svg?branch=master)](https://travis-ci.com/silentsoft/slack-api)
 [![license](https://img.shields.io/badge/license-Apache--2.0-green.svg)](https://github.com/silentsoft/slack-api/blob/master/LICENSE.txt)
-[![HitCount](http://hits.dwyl.com/silentsoft/slack-api.svg)](http://hits.dwyl.com/silentsoft/slack-api)
+[![Hits](https://hits.sh/github.com/silentsoft/slack-api.svg)](https://hits.sh)
 
 `Slack API` is a simple Java library to post a Slack message to specific channel.
 
@@ -26,15 +26,13 @@
       3. Features > OAuth & Permissions > OAuth Tokens & Redirect URLs > Install App to Workspace.
       4. Add an App to specific channel.
 
-## Dependency
-```
-<dependencies>
-    <dependency>
-        <groupId>org.silentsoft</groupId>
-        <artifactId>slack-api</artifactId>
-        <version>0.1.1</version>
-    </dependency>
-</dependencies>
+## Maven Central
+```xml
+<dependency>
+    <groupId>org.silentsoft</groupId>
+    <artifactId>slack-api</artifactId>
+    <version>0.1.1</version>
+</dependency>
 ``` 
 
 ## Contributing
