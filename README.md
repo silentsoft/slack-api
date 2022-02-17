@@ -3,7 +3,7 @@
 [![Maven Central](https://img.shields.io/maven-central/v/org.silentsoft/slack-api)](https://search.maven.org/artifact/org.silentsoft/slack-api)
 [![Build Status](https://app.travis-ci.com/silentsoft/slack-api.svg?branch=master)](https://app.travis-ci.com/silentsoft/slack-api)
 [![license](https://img.shields.io/badge/license-Apache--2.0-green.svg)](https://github.com/silentsoft/slack-api/blob/master/LICENSE.txt)
-[![Hits](https://hits.sh/github.com/silentsoft/slack-api.svg)](https://hits.sh)
+[![Hits](https://hits.sh/github.com/silentsoft/slack-api.svg)](https://hits.sh/github.com/silentsoft/slack-api/)
 
 `Slack API` is a simple Java library to post a Slack message to specific channel.
 
